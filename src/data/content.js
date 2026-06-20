@@ -73,7 +73,7 @@ export const skills = {
   sub: "A full-stack data science skill set — from raw data to business insight.",
   groups: [
     {
-      icon: "🐍", title: "Programming & Data",
+      icon: "💻", title: "Programming & Data",
       tags: [
         { t: "Python", hot: true }, { t: "SQL", hot: true }, { t: "Pandas" },
         { t: "NumPy" }, { t: "Scikit-learn" }, { t: "Matplotlib" }, { t: "Seaborn" }, { t: "MySQL" },
@@ -126,7 +126,7 @@ export const certifications = {
     { color: "teal", year: "2025", tag: "📜 Training", title: "Data Scientist Training Certificate", desc: "Official Data Science Training Program — Python, ML, Business Intelligence & Data Visualization" },
     { color: "blue", year: "2024", tag: "☁️ Infra", title: "Virtual Machine Fundamental", desc: "Telkom University — Virtualization & Infrastructure Fundamentals" },
     { color: "green", year: "2024", tag: "🐧 OS", title: "Linux Fundamental", desc: "Telkom University — Linux Command Line & System Administration" },
-    { color: "purple", year: "2023", tag: "🏢 ERP", title: "SAP01 Fundamental", desc: "SAP — Enterprise Resource Planning Fundamentals" },
+    { color: "purple", year: "2024", tag: "🏢 ERP", title: "SAP01 Fundamental", desc: "SAP — Enterprise Resource Planning Fundamentals" },
   ],
 };
 
@@ -169,7 +169,7 @@ export const featuredProjects = [
     desc: "An inclusive information system designed to bridge the communication gap between the deaf community and the general public. This capstone analyzes and designs a platform to teach Indonesian Sign Language (SIBI/BISINDO), fostering equal and inclusive social interaction for people who are deaf or hard of hearing.",
     tags: ["System Analysis", "Next.js Framework", "Inclusive Design", "Social Impact", "ERD & DFD", "Capstone Project"],
     highlights: [
-      { icon: "🤟", title: "Social Problem", text: "The deaf community faces social isolation due to communication barriers — most Indonesians cannot use sign language" },
+      { icon: "🧩", title: "Social Problem", text: "The deaf community faces social isolation due to communication barriers — most Indonesians cannot use sign language" },
       { icon: "💡", title: "System Solution", text: "Learning management system with sign language modules, video content, and progress tracking — built for general public users" },
       { icon: "🔍", title: "Analysis Method", text: "Built and developed a web application using Next.js and handled data processing tasks by transforming video content into text and structured sentences to support system functionality and analysis" },
       { icon: "🌍", title: "Vision", text: "Support Indonesia's inclusive society goals by empowering the general public to meaningfully communicate with the deaf community" },

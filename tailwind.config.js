@@ -19,7 +19,14 @@ for (const color of customColors) {
   }
 }
 
+/** Helper: membuat fungsi warna Tailwind yang membaca CSS variable RGB, mendukung opacity modifier (bg-teal/20 dst). */
+function withOpacity(varName) {
+  return ({ opacityValue }) =>
+    opacityValue === undefined ? `rgb(var(${varName}))` : `rgb(var(${varName}) / ${opacityValue})`;
+}
+
 export default {
+  darkMode: "class",
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -28,20 +35,21 @@ export default {
   theme: {
     extend: {
       colors: {
-        navy: '#08112A',
-        navydeep: '#0D1B38',
-        navydeeper: '#112040',
-        teal: '#00E5B0',
-        tealdark: '#00B389',
-        ink: '#F0F6FF',
-        muted: '#7A96BE',
-        muted2: '#3D5478',
-        card: '#0E1A30',
-        cardlight: '#112138',
-        cardlighter: '#152540',
-        coral: '#FF5C6A',
-        amber: '#FFD166',
-        violet: '#A78BFA',
+        white: withOpacity('--c-overlay'),
+        navy: withOpacity('--c-navy'),
+        navydeep: withOpacity('--c-navydeep'),
+        navydeeper: withOpacity('--c-navydeeper'),
+        teal: withOpacity('--c-teal'),
+        tealdark: withOpacity('--c-tealdark'),
+        ink: withOpacity('--c-ink'),
+        muted: withOpacity('--c-muted'),
+        muted2: withOpacity('--c-muted2'),
+        card: withOpacity('--c-card'),
+        cardlight: withOpacity('--c-cardlight'),
+        cardlighter: withOpacity('--c-cardlighter'),
+        coral: withOpacity('--c-coral'),
+        amber: withOpacity('--c-amber'),
+        violet: withOpacity('--c-violet'),
       },
       fontFamily: {
         display: ['"Space Grotesk"', 'sans-serif'],

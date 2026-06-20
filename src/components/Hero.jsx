@@ -99,66 +99,74 @@ function PhotoCard() {
         }}
       >
         {/* foto */}
-        <img
-          src="/PortofolioDadanHamdani/images/profile.jpg"
-          alt={`Foto profil ${profile.name}`}
-          className="absolute inset-0 h-full w-full object-cover pointer-events-none"
-          onError={(e) => {
-            e.currentTarget.style.display = "none";
-            e.currentTarget.nextSibling.style.display = "flex";
-          }}
-        />
-        <div
-          className="hidden absolute inset-0 h-full w-full items-center justify-center font-display text-7xl font-bold text-teal bg-navydeeper pointer-events-none"
-          style={{ display: "none" }}
-        >
-          DH
-        </div>
+<img
+  src="/PortofolioDadanHamdani/images/profile.jpg"
+  alt={`Foto profil ${profile.name}`}
+  className="absolute inset-0 h-full w-full object-cover pointer-events-none"
+  onError={(e) => {
+    e.currentTarget.style.display = "none";
 
-        {/* gradient gelap di atas & bawah agar teks overlay terbaca */}
-        <div className="absolute inset-x-0 top-0 h-28 bg-gradient-to-b from-navy/90 via-navy/40 to-transparent pointer-events-none" />
-        <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-navy via-navy/80 to-transparent pointer-events-none" />
+    if (e.currentTarget.nextElementSibling) {
+      e.currentTarget.nextElementSibling.style.display = "flex";
+    }
+  }}
+/>
 
-        {/* highlight kilau mengikuti kursor */}
-        <div
-          className="absolute inset-0 pointer-events-none transition-opacity duration-200"
-          style={{
-            opacity: hovering ? 1 : 0,
-            background: `radial-gradient(circle at ${50 + tilt.x * 2.5}% ${50 - tilt.y * 2.5}%, rgba(255,255,255,0.14), transparent 55%)`,
-          }}
-          aria-hidden="true"
-        />
+<div
+  className="hidden absolute inset-0 h-full w-full items-center justify-center font-display text-7xl font-bold text-teal bg-navydeeper pointer-events-none"
+  style={{ display: "none" }}
+>
+  DH
+</div>
 
-        {/* nama + role overlay di atas foto */}
-        <div className="absolute top-0 left-0 p-5 sm:p-6">
-          <h3 className="font-display text-lg sm:text-xl font-bold text-ink leading-tight drop-shadow-md">
-            {profile.name}
-          </h3>
-          <p className="text-teal text-xs sm:text-sm font-medium font-mono mt-0.5">{profile.role}</p>
-        </div>
+{/* gradient gelap di bawah agar status bar tetap terbaca */}
+<div className="absolute inset-x-0 bottom-0 h-36 bg-gradient-to-t from-navy via-navy/85 to-transparent pointer-events-none" />
 
-        {/* status bar bawah, ala referensi: status online + tombol contact */}
-        <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-5 flex items-center justify-between gap-3">
-          <div className="flex items-center gap-2.5 bg-white/[0.06] backdrop-blur-md border border-white/[0.1] rounded-full pl-1.5 pr-3.5 py-1.5">
-            <span className="relative flex h-6 w-6 sm:h-7 sm:w-7 rounded-full bg-gradient-to-br from-teal to-[#00B0FF] items-center justify-center font-display text-[0.65rem] font-bold text-navy shrink-0">
-              DH
-            </span>
-            <div className="leading-tight">
-              <span className="block text-[0.7rem] text-ink font-medium">@dadanhamdani</span>
-              <span className="flex items-center gap-1 text-[0.62rem] text-muted">
-                <span className="h-1.5 w-1.5 rounded-full bg-[#00FF9D] animate-pulse" />
-                Online
-              </span>
-            </div>
-          </div>
-          <a
-            href={`mailto:${profile.email}`}
-            onClick={(e) => e.stopPropagation()}
-            className="shrink-0 bg-teal text-navy text-[0.68rem] font-bold px-3.5 py-2 rounded-full hover:-translate-y-0.5 transition-transform shadow-[0_4px_20px_rgba(0,229,176,0.4)]"
-          >
-            Contact Me
-          </a>
-        </div>
+{/* highlight kilau mengikuti kursor */}
+<div
+  className="absolute inset-0 pointer-events-none transition-opacity duration-200"
+  style={{
+    opacity: hovering ? 1 : 0,
+    background: `radial-gradient(
+      circle at ${50 + tilt.x * 2.5}% ${50 - tilt.y * 2.5}%,
+      rgba(255,255,255,0.14),
+      transparent 55%
+    )`,
+  }}
+  aria-hidden="true"
+/>
+
+{/* status bar bawah */}
+<div className="absolute bottom-0 left-0 right-0 p-4 sm:p-5 flex items-center justify-between gap-2.5">
+
+  <div className="flex items-center gap-2 bg-white/[0.08] backdrop-blur-md border border-white/[0.12] rounded-full pl-1 pr-3 py-1 shrink min-w-0">
+
+    <span className="flex h-6 w-6 sm:h-7 sm:w-7 rounded-full bg-gradient-to-br from-teal to-[#00B0FF] items-center justify-center font-display text-[0.62rem] font-bold text-navy shrink-0">
+      DH
+    </span>
+
+    <div className="leading-tight min-w-0">
+      <span className="block text-[0.7rem] text-ink font-medium truncate">
+        @dadanhamdani
+      </span>
+
+      <span className="flex items-center gap-1 text-[0.6rem] text-muted">
+        <span className="h-1.5 w-1.5 rounded-full bg-[#00FF9D] animate-pulse shrink-0" />
+        Online
+      </span>
+    </div>
+
+  </div>
+
+  <a
+    href={`mailto:${profile.email}`}
+    onClick={(e) => e.stopPropagation()}
+    className="shrink-0 bg-teal text-navy text-[0.68rem] font-bold px-3.5 py-2 rounded-full hover:-translate-y-0.5 hover:shadow-[0_6px_24px_rgba(0,229,176,0.5)] transition-all shadow-[0_4px_20px_rgba(0,229,176,0.4)]"
+  >
+    Contact Me
+  </a>
+
+</div>
       </div>
     </motion.div>
   );
