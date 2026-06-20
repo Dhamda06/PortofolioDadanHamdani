@@ -100,7 +100,7 @@ function PhotoCard() {
       >
         {/* foto */}
         <img
-          src="/images/profile.jpg"
+          src="/PortofolioDadanHamdani/images/profile.jpg"
           alt={`Foto profil ${profile.name}`}
           className="absolute inset-0 h-full w-full object-cover pointer-events-none"
           onError={(e) => {
