@@ -40,7 +40,7 @@ export const about = {
   paragraphs: [
     {
       pre: "I'm a ",
-      strong: "fresh graduate of Information Systems at Telkom University",
+      strong: "final-year Information Systems student at Telkom University",
       post: " with a deep passion for data science and analytics. My journey started in system analysis, but data captured my attention — the way it reveals patterns, predicts outcomes, and drives smarter decisions.",
     },
     {
