@@ -1,4 +1,4 @@
-// Semua konten portofolio asli dipertahankan persis — hanya tampilan yang didesain ulang.
+// Semua konten portofolio asli dipertahankan persis - hanya tampilan yang didesain ulang.
 
 export const profile = {
   name: "Dadan Hamdani",
@@ -14,7 +14,7 @@ export const profile = {
   description:
     "BNSP-Certified Data Scientist & Information Systems graduate from Telkom University. I transform raw data into strategic decisions that drive real-world impact.",
   stats: [
-    { num: "3.61", label: "GPA" },
+    { num: "3.62", label: "GPA" },
     { num: "6+", label: "Projects" },
     { num: "BNSP", label: "Certified" },
     { num: "Top 5", label: "KIBB Finalist" },
@@ -40,8 +40,8 @@ export const about = {
   paragraphs: [
     {
       pre: "I'm a ",
-      strong: "final-year Information Systems student at Telkom University",
-      post: " with a deep passion for data science and analytics. My journey started in system analysis, but data captured my attention — the way it reveals patterns, predicts outcomes, and drives smarter decisions.",
+      strong: "fresh graduate of Information Systems at Telkom University",
+      post: " with a deep passion for data science and analytics. My journey started in system analysis, but data captured my attention - the way it reveals patterns, predicts outcomes, and drives smarter decisions.",
     },
     {
       pre: "I hold a ",
@@ -51,7 +51,7 @@ export const about = {
     {
       pre: "What sets me apart is my ",
       strong: "hybrid background",
-      post: " — combining rigorous data science skills with a foundation in business development and public relations, allowing me to communicate complex insights to any audience, technical or not.",
+      post: " - combining rigorous data science skills with a foundation in business development and public relations, allowing me to communicate complex insights to any audience, technical or not.",
     },
   ],
   chips: [
@@ -59,9 +59,9 @@ export const about = {
     "Business Intelligence", "Cloud Computing", "Big Data", "System Analysis",
   ],
   highlights: [
-    { icon: "🎓", title: "Telkom University", sub: "S1 Information Systems · GPA 3.61 · Final Semester" },
+    { icon: "🎓", title: "Telkom University", sub: "S1 Information Systems · GPA 3.62 · Class of 2025" },
     { icon: "🏅", title: "BNSP Certified Data Scientist", sub: "National Professional Certification · 2025" },
-    { icon: "🏆", title: "Top 5 Finalist — KIBB 2023", sub: "Bandung City-Level Innovation Competition" },
+    { icon: "🏆", title: "Top 5 Finalist - KIBB 2023", sub: "Bandung City-Level Innovation Competition" },
     { icon: "💼", title: "Web Developer Intern", sub: "PT Polystar International (MBtech) · Jakarta" },
     { icon: "🌱", title: "50+ Community Members Impacted", sub: "SmarTani deployed at Desa Putrajawa, Garut" },
   ],
@@ -70,7 +70,7 @@ export const about = {
 export const skills = {
   eyebrow: "technical skills",
   title: "My Toolkit",
-  sub: "A full-stack data science skill set — from raw data to business insight.",
+  sub: "A full-stack data science skill set - from raw data to business insight.",
   groups: [
     {
       icon: "💻", title: "Programming & Data",
@@ -122,29 +122,29 @@ export const certifications = {
   title: "Certified & Verified",
   sub: "Competency-based certifications that validate real-world expertise.",
   items: [
-    { color: "gold", year: "2025", tag: "🏅 BNSP National", title: "BNSP Certified Data Scientist", desc: "Badan Nasional Sertifikasi Profesi — National Competency Certification based on SKKNI standards" },
-    { color: "teal", year: "2025", tag: "📜 Training", title: "Data Scientist Training Certificate", desc: "Official Data Science Training Program — Python, ML, Business Intelligence & Data Visualization" },
-    { color: "blue", year: "2024", tag: "☁️ Infra", title: "Virtual Machine Fundamental", desc: "Telkom University — Virtualization & Infrastructure Fundamentals" },
-    { color: "green", year: "2024", tag: "🐧 OS", title: "Linux Fundamental", desc: "Telkom University — Linux Command Line & System Administration" },
-    { color: "purple", year: "2024", tag: "🏢 ERP", title: "SAP01 Fundamental", desc: "SAP — Enterprise Resource Planning Fundamentals" },
+    { color: "gold", year: "2025", tag: "🏅 BNSP National", title: "BNSP Certified Data Scientist", desc: "Badan Nasional Sertifikasi Profesi - National Competency Certification based on SKKNI standards" },
+    { color: "teal", year: "2025", tag: "📜 Training", title: "Data Scientist Training Certificate", desc: "Official Data Science Training Program - Python, ML, Business Intelligence & Data Visualization" },
+    { color: "blue", year: "2024", tag: "☁️ Infra", title: "Virtual Machine Fundamental", desc: "Telkom University - Virtualization & Infrastructure Fundamentals" },
+    { color: "green", year: "2024", tag: "🐧 OS", title: "Linux Fundamental", desc: "Telkom University - Linux Command Line & System Administration" },
+    { color: "purple", year: "2023", tag: "🏢 ERP", title: "SAP01 Fundamental", desc: "SAP - Enterprise Resource Planning Fundamentals" },
   ],
 };
 
 export const projectsIntro = {
   eyebrow: "featured projects",
   title: "Work That Makes an Impact",
-  sub: "Selected Projects — from academic research to real-world implementation.",
+  sub: "Selected Projects - from academic research to real-world implementation.",
 };
 
 export const featuredProjects = [
   {
     label: "🌿 PPL · Academic Project",
-    title: "SmarTani — Aplikasi Pencatatan Hasil Pertanian Biofarmaka",
-    desc: "A comprehensive agricultural recording app for biofarmaka (medicinal plant) farmers. SmarTani digitizes harvest records, tracks yields over time, and delivers data-driven insights to improve farmer productivity and income — bringing smart technology directly to rural agriculture communities.",
+    title: "SmarTani - Aplikasi Pencatatan Hasil Pertanian Biofarmaka",
+    desc: "A comprehensive agricultural recording app for biofarmaka (medicinal plant) farmers. SmarTani digitizes harvest records, tracks yields over time, and delivers data-driven insights to improve farmer productivity and income - bringing smart technology directly to rural agriculture communities.",
     tags: ["System Analysis", "UI/UX Design", "Mobile App", "Database Design", "FAST Methodology", "Agile / PPL"],
     highlights: [
       { icon: "🌿", title: "Problem", text: "Farmers lacked a systematic way to record and analyze harvest data, causing poor planning and income loss" },
-      { icon: "📱", title: "Solution", text: "Digital recording app with harvest history, yield analytics, and crop management — designed for low-tech rural users" },
+      { icon: "📱", title: "Solution", text: "Digital recording app with harvest history, yield analytics, and crop management - designed for low-tech rural users" },
       { icon: "🎯", title: "My Role", text: "Full system analysis, requirements gathering, UI/UX design, and development coordination under PPL coursework" },
       { icon: "📊", title: "Outcome", text: "Successfully deployed and tested with real biofarmaka farming community at Desa Putrajawa, Garut" },
     ],
@@ -152,14 +152,14 @@ export const featuredProjects = [
   },
   {
     label: "🏗️ Manprosi · Project Design",
-    title: "Perancangan IoT untuk Meningkatkan Efisiensi Pelayanan Kependudukan — Kecamatan Bojongsoang",
+    title: "Perancangan IoT untuk Meningkatkan Efisiensi Pelayanan Kependudukan - Kecamatan Bojongsoang",
     desc: "Designed a complete IoT system to modernize and improve the quality of civil registration services at Kecamatan Bojongsoang. The solution covers smart queue management, real-time service monitoring, and a data dashboard for evidence-based administrative decision-making.",
     tags: ["IoT Architecture", "Project Management", "System Design", "UML", "Public Sector", "Manprosi"],
     highlights: [
       { icon: "🏛️", title: "Context", text: "Administrative services in Kecamatan Bojongsoang were slow, paper-based, and inefficient for residents" },
       { icon: "⚡", title: "Innovation", text: "IoT-based smart queue management and citizen service monitoring to reduce wait time and improve quality" },
-      { icon: "🎯", title: "My Role", text: "Project Manager — led system design, IoT architecture planning, stakeholder analysis, and full project documentation" },
-      { icon: "📈", title: "Impact", text: "Proposed digital transformation framework for public administrative efficiency — submitted as Manprosi final project" },
+      { icon: "🎯", title: "My Role", text: "Project Manager - led system design, IoT architecture planning, stakeholder analysis, and full project documentation" },
+      { icon: "📈", title: "Impact", text: "Proposed digital transformation framework for public administrative efficiency - submitted as Manprosi final project" },
     ],
     reverse: true,
   },
@@ -169,8 +169,8 @@ export const featuredProjects = [
     desc: "An inclusive information system designed to bridge the communication gap between the deaf community and the general public. This capstone analyzes and designs a platform to teach Indonesian Sign Language (SIBI/BISINDO), fostering equal and inclusive social interaction for people who are deaf or hard of hearing.",
     tags: ["System Analysis", "Next.js Framework", "Inclusive Design", "Social Impact", "ERD & DFD", "Capstone Project"],
     highlights: [
-      { icon: "🧩", title: "Social Problem", text: "The deaf community faces social isolation due to communication barriers — most Indonesians cannot use sign language" },
-      { icon: "💡", title: "System Solution", text: "Learning management system with sign language modules, video content, and progress tracking — built for general public users" },
+      { icon: "🤟", title: "Social Problem", text: "The deaf community faces social isolation due to communication barriers - most Indonesians cannot use sign language" },
+      { icon: "💡", title: "System Solution", text: "Learning management system with sign language modules, video content, and progress tracking - built for general public users" },
       { icon: "🔍", title: "Analysis Method", text: "Built and developed a web application using Next.js and handled data processing tasks by transforming video content into text and structured sentences to support system functionality and analysis" },
       { icon: "🌍", title: "Vision", text: "Support Indonesia's inclusive society goals by empowering the general public to meaningfully communicate with the deaf community" },
     ],
@@ -181,19 +181,19 @@ export const featuredProjects = [
 export const smallProjects = [
   {
     icon: "🌾", badge: "competition", badgeLabel: "🏆 Top 5",
-    title: "IoT Agricultural Monitoring — KIBB 2023",
+    title: "IoT Agricultural Monitoring - KIBB 2023",
     desc: "Led team to build an IoT crop monitoring system for Lomba Inovasi Bandung Bedas. Achieved Top 5 Finalist at city-level innovation competition.",
     tags: ["IoT", "Project Lead", "KIBB"],
   },
   {
     icon: "♿", badge: "research", badgeLabel: "Research",
-    title: "Inklusi Transportasi Disabilitas — BRIN",
+    title: "Inklusi Transportasi Disabilitas - BRIN",
     desc: "Research assistant at BRIN analyzing system requirements for inclusive public transportation digitalization for people with disabilities.",
     tags: ["Research", "BRIN", "System Analysis"],
   },
   {
     icon: "🌐", badge: "internship", badgeLabel: "Internship",
-    title: "Web Development — PT Polystar International",
+    title: "Web Development - PT Polystar International",
     desc: "Developed and maintained web applications at PT Polystar International (MBtech) Jakarta, building responsive front-end interfaces and collaborating cross-functionally.",
     tags: ["Web Dev", "Front-end", "Jakarta"],
   },
@@ -207,14 +207,14 @@ export const experienceIntro = {
 
 export const experience = [
   {
-    tabTitle: "S1 Telkom University", tabSub: "2024–Present · Education",
-    period: "2024 – Present · Education",
+    tabTitle: "S1 Telkom University", tabSub: "2021–2025 · Education",
+    period: "2021 – 2025 · Education",
     title: "Bachelor of Information Systems (S1)",
-    org: "Telkom University · Bandung · GPA 3.61",
-    desc: "Final semester student deepening expertise in data science, big data, and cloud systems. Completing a capstone focused on inclusive information systems design for the deaf community.",
+    org: "Telkom University · Bandung · GPA 3.62",
+    desc: "Fresh Graduate in Information Systems with expertise in data science, big data, and cloud systems. Completed a capstone on inclusive information systems design for the deaf community.",
     list: [
       "Key courses: Data Warehouse & Business Intelligence, Big Data, Cloud Computing (Komputasi Awan)",
-      "Capstone: Inclusive Sign Language Learning System for general public users",
+      "Capstone: Inclusive Sign Language Learning System for general public users - Completed",
       "Applied data science in SmarTani (PPL) and IoT Kependudukan (Manprosi) projects",
     ],
     skills: ["Data Warehouse", "Big Data", "Cloud Computing", "Capstone Project"],
@@ -233,10 +233,10 @@ export const experience = [
     skills: ["Web Development", "Front-end", "Back-end", "Agile"],
   },
   {
-    tabTitle: "Research — BRIN", tabSub: "Apr–Jun 2024 · Research",
+    tabTitle: "Research - BRIN", tabSub: "Apr–Jun 2024 · Research",
     period: "Apr – Jun 2024 · Research",
     title: "Research Assistant & System Analyst",
-    org: "BRIN — Penelitian Inklusi Transportasi Disabilitas",
+    org: "BRIN - Penelitian Inklusi Transportasi Disabilitas",
     desc: "Contributed to a national research project at BRIN focused on digitalization of public transportation services for people with disabilities.",
     list: [
       "Analyzed system requirements for inclusive transportation digitalization",
@@ -249,7 +249,7 @@ export const experience = [
     tabTitle: "KIBB Finalist", tabSub: "Aug–Nov 2023 · Competition",
     period: "Aug – Nov 2023 · Competition",
     title: "Project Manager & Innovation Lead",
-    org: "Lomba Inovasi Bandung Bedas (KIBB) 2023 — Top 5 Finalist",
+    org: "Lomba Inovasi Bandung Bedas (KIBB) 2023 - Top 5 Finalist",
     desc: "Led a team to design and prototype an IoT-based agricultural monitoring system, competing at the Bandung city-level innovation competition.",
     list: [
       "Managed full project lifecycle: ideation, team coordination, prototyping, and live demo",
@@ -279,7 +279,7 @@ export const experience = [
     desc: "Built a strong foundation in information systems, software development, and business process modeling. Graduated with distinction.",
     list: [
       "Key courses: UI/UX Design, Business Process Modeling, System Analysis & Design, Project 1 & 2",
-      "GPA 3.73 — graduated with distinction",
+      "GPA 3.73 - graduated with distinction",
       "Developed FocketFarm app adopted by 50+ community members at Desa Putrajawa, Garut",
     ],
     skills: ["System Analysis", "UI/UX", "Business Process", "D3 Graduate"],
@@ -290,7 +290,7 @@ export const contact = {
   eyebrow: "let's connect",
   title: "Open to Opportunities",
   sub: "Looking for Data Scientist, Data Analyst, or Business Intelligence roles. Let's build something meaningful together.",
-  availability: "Available for Full-Time Roles — Starting Immediately",
+  availability: "Available for Full-Time Roles - Starting Immediately",
 };
 
 export const footer = {
