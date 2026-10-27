@@ -59,7 +59,7 @@ export const about = {
     "Business Intelligence", "Cloud Computing", "Big Data", "System Analysis",
   ],
   highlights: [
-    { icon: "🎓", title: "Telkom University", sub: "S1 Information Systems · GPA 3.62 · Class of 2025" },
+    { icon: "🎓", title: "Telkom University", sub: "S1 Information Systems · GPA 3.62 · Class of 2026" },
     { icon: "🏅", title: "BNSP Certified Data Scientist", sub: "National Professional Certification · 2025" },
     { icon: "🏆", title: "Top 5 Finalist - KIBB 2023", sub: "Bandung City-Level Innovation Competition" },
     { icon: "💼", title: "Web Developer Intern", sub: "PT Polystar International (MBtech) · Jakarta" },
@@ -207,8 +207,8 @@ export const experienceIntro = {
 
 export const experience = [
   {
-    tabTitle: "S1 Telkom University", tabSub: "2021–2025 · Education",
-    period: "2021 – 2025 · Education",
+    tabTitle: "S1 Telkom University", tabSub: "2021–2026 · Education",
+    period: "2021 – 2026 · Education",
     title: "Bachelor of Information Systems (S1)",
     org: "Telkom University · Bandung · GPA 3.62",
     desc: "Fresh Graduate in Information Systems with expertise in data science, big data, and cloud systems. Completed a capstone on inclusive information systems design for the deaf community.",
