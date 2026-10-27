@@ -22,7 +22,7 @@ export const profile = {
   email: "dadanhamdani.0623@gmail.com",
   linkedin: "linkedin.com/in/dadanhamdani02",
   linkedinUrl: "https://linkedin.com/in/dadanhamdani02",
-  location: "Bandung, West Java · Open to Remote & Relocation",
+  location: "Jakarta, Indonesia · Open to Remote & Relocation",
 };
 
 export const nav = [
@@ -62,7 +62,7 @@ export const about = {
     { icon: "🎓", title: "Telkom University", sub: "S1 Information Systems · GPA 3.62 · Class of 2026" },
     { icon: "🏅", title: "BNSP Certified Data Scientist", sub: "National Professional Certification · 2025" },
     { icon: "🏆", title: "Top 5 Finalist - KIBB 2023", sub: "Bandung City-Level Innovation Competition" },
-    { icon: "💼", title: "Web Developer Intern", sub: "PT Polystar International (MBtech) · Jakarta" },
+    { icon: "💼", title: "Web Developer Intern", sub: "PT Polystar International (MBtech) · Jakarta · 2025" },
     { icon: "🌱", title: "50+ Community Members Impacted", sub: "SmarTani deployed at Desa Putrajawa, Garut" },
   ],
 };
@@ -207,8 +207,8 @@ export const experienceIntro = {
 
 export const experience = [
   {
-    tabTitle: "S1 Telkom University", tabSub: "2021–2026 · Education",
-    period: "2021 – 2026 · Education",
+    tabTitle: "S1 Telkom University", tabSub: "2024–2026 · Education",
+    period: "2024 – 2026 · Education",
     title: "Bachelor of Information Systems (S1)",
     org: "Telkom University · Bandung · GPA 3.62",
     desc: "Fresh Graduate in Information Systems with expertise in data science, big data, and cloud systems. Completed a capstone on inclusive information systems design for the deaf community.",
@@ -220,8 +220,21 @@ export const experience = [
     skills: ["Data Warehouse", "Big Data", "Cloud Computing", "Capstone Project"],
   },
   {
-    tabTitle: "Web Developer Intern", tabSub: "2024 · PT Polystar (MBtech)",
-    period: "2024 · Internship",
+    tabTitle: "D3 Telkom University", tabSub: "2021–2024 · Education",
+    period: "2021 – 2024 · Education",
+    title: "Diploma in Information Systems (D3)",
+    org: "Telkom University · Bandung · GPA 3.73",
+    desc: "Built a strong foundation in information systems, software development, and business process modeling. Graduated with distinction.",
+    list: [
+      "Key courses: UI/UX Design, Business Process Modeling, System Analysis & Design, Project 1 & 2",
+      "GPA 3.73 - graduated with distinction",
+      "Developed FocketFarm app adopted by 50+ community members at Desa Putrajawa, Garut",
+    ],
+    skills: ["System Analysis", "UI/UX", "Business Process", "D3 Graduate"],
+  },
+  {
+    tabTitle: "Web Developer Intern", tabSub: "2025 · PT Polystar (MBtech)",
+    period: "2025 · Internship",
     title: "Web Developer",
     org: "PT Polystar International (MBtech) · Jakarta",
     desc: "Professional internship in a tech-forward Jakarta environment, contributing to web application development and cross-functional collaboration.",
@@ -270,19 +283,6 @@ export const experience = [
       "Developed organizational leadership and event management skills",
     ],
     skills: ["Leadership", "Event Management", "Coordination"],
-  },
-  {
-    tabTitle: "D3 Telkom University", tabSub: "2021–2024 · Education",
-    period: "2021 – 2024 · Education",
-    title: "Diploma in Information Systems (D3)",
-    org: "Telkom University · Bandung · GPA 3.73",
-    desc: "Built a strong foundation in information systems, software development, and business process modeling. Graduated with distinction.",
-    list: [
-      "Key courses: UI/UX Design, Business Process Modeling, System Analysis & Design, Project 1 & 2",
-      "GPA 3.73 - graduated with distinction",
-      "Developed FocketFarm app adopted by 50+ community members at Desa Putrajawa, Garut",
-    ],
-    skills: ["System Analysis", "UI/UX", "Business Process", "D3 Graduate"],
   },
 ];
 

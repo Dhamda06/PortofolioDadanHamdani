@@ -19,7 +19,7 @@ export default function About() {
           <Reveal delay={0.05} direction="left">
             <div>
               {about.paragraphs.map((p, i) => (
-                <p key={i} className="text-muted text-[0.93rem] leading-[1.9] mb-4">
+                <p key={i} className="text-muted text-[0.93rem] leading-[1.9] mb-4 text-justify">
                   {p.pre}
                   <strong className="text-ink font-semibold">{p.strong}</strong>
                   {p.post}
